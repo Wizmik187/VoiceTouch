@@ -123,7 +123,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=JWGQFXYY
+DocumentUniqueId=UYSCQKFF
 
 [Document6]
 DocumentPath=[04] - Mechanicals and Connectors.SchDoc
@@ -143,7 +143,7 @@ GenerateClassCluster=0
 DocumentUniqueId=NVJZEYFR
 
 [Document7]
-DocumentPath=VoiceTouch_PCB_L6_PCB_L6.PcbDoc
+DocumentPath=VoiceTouch_PCB_L6.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -170,40 +170,40 @@ Variation2=Designator=R?|UniqueId=\PFNAEKCO|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=VersionRevision
-Value=A00
+Name=Address1
+Value=-
 
 [Parameter2]
-Name=SheetSize
-Value=A3
+Name=Address2
+Value=-
 
 [Parameter3]
-Name=ProjectNumber
-Value=None
+Name=Company
+Value=-
 
 [Parameter4]
-Name=Project
-Value=Initial Project
+Name=Contact
+Value=-
 
 [Parameter5]
 Name=DrawnBy
 Value=JW
 
 [Parameter6]
-Name=Contact
-Value=-
+Name=Project
+Value=Initial Project
 
 [Parameter7]
-Name=Company
-Value=-
+Name=ProjectNumber
+Value=None
 
 [Parameter8]
-Name=Address2
-Value=-
+Name=SheetSize
+Value=A3
 
 [Parameter9]
-Name=Address1
-Value=-
+Name=VersionRevision
+Value=A00
 
 [Configuration1]
 Name=Default Configuration
