@@ -106,7 +106,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=XNRCBHJS
+DocumentUniqueId=OVQKFMBN
 
 [Document5]
 DocumentPath=[03] - NDP, LRA and BLE.SchDoc
@@ -165,45 +165,45 @@ Description=A00
 AllowFabrication=0
 ParameterCount=0
 VariationCount=2
-Variation1=Designator=R2|UniqueId=\RVSYUTFW|Kind=1|AlternatePart= 
-Variation2=Designator=R?|UniqueId=\PFNAEKCO|Kind=1|AlternatePart= 
+Variation1=Designator=R8|UniqueId=\QVAWGKYP|Kind=1|AlternatePart= 
+Variation2=Designator=R9|UniqueId=\EIBLEHVQ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
-Name=Address1
-Value=-
+Name=VersionRevision
+Value=A00
 
 [Parameter2]
-Name=Address2
-Value=-
+Name=SheetSize
+Value=A3
 
 [Parameter3]
-Name=Company
-Value=-
+Name=ProjectNumber
+Value=KPVTA00
 
 [Parameter4]
-Name=Contact
-Value=-
+Name=Project
+Value=VoiceTouch
 
 [Parameter5]
 Name=DrawnBy
 Value=JW
 
 [Parameter6]
-Name=Project
-Value=Initial Project
+Name=Contact
+Value=-
 
 [Parameter7]
-Name=ProjectNumber
-Value=None
+Name=Company
+Value=-
 
 [Parameter8]
-Name=SheetSize
-Value=A3
+Name=Address2
+Value=-
 
 [Parameter9]
-Name=VersionRevision
-Value=A00
+Name=Address1
+Value=-
 
 [Configuration1]
 Name=Default Configuration
