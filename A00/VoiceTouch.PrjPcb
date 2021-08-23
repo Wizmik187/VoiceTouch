@@ -106,10 +106,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=OVQKFMBN
+DocumentUniqueId=QSLLXADF
 
 [Document5]
-DocumentPath=[03] - NDP, LRA and BLE.SchDoc
+DocumentPath=[03] - Power, NDP, BLE and LRA.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -143,7 +143,7 @@ GenerateClassCluster=0
 DocumentUniqueId=NVJZEYFR
 
 [Document7]
-DocumentPath=VoiceTouch_PCB_L6.PcbDoc
+DocumentPath=VoiceTouch_PCB_L4.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -164,46 +164,55 @@ UniqueID=B03E60DE-4B17-45A9-9325-8E7475A79AB2
 Description=A00
 AllowFabrication=0
 ParameterCount=0
-VariationCount=2
-Variation1=Designator=R8|UniqueId=\QVAWGKYP|Kind=1|AlternatePart= 
-Variation2=Designator=R9|UniqueId=\EIBLEHVQ|Kind=1|AlternatePart= 
+VariationCount=3
+Variation1=Designator=R11|UniqueId=\EIBLEHVQ|Kind=1|AlternatePart= 
+Variation2=Designator=R7|UniqueId=\OGLOQELL|Kind=1|AlternatePart= 
+Variation3=Designator=R3|UniqueId=\NIIYIGVQ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for VoiceTouch\Design Rule Check - VoiceTouch_PCB_L4.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for VoiceTouch\Design Rule Check - VoiceTouch_PCB_L6.html
+DItemRevisionGUID=
+
 [Parameter1]
-Name=VersionRevision
-Value=A00
+Name=Address1
+Value=-
 
 [Parameter2]
-Name=SheetSize
-Value=A3
+Name=Address2
+Value=-
 
 [Parameter3]
-Name=ProjectNumber
-Value=KPVTA00
+Name=Company
+Value=-
 
 [Parameter4]
-Name=Project
-Value=VoiceTouch
+Name=Contact
+Value=-
 
 [Parameter5]
 Name=DrawnBy
 Value=JW
 
 [Parameter6]
-Name=Contact
-Value=-
+Name=Project
+Value=VoiceTouch
 
 [Parameter7]
-Name=Company
-Value=-
+Name=ProjectNumber
+Value=3ASrTjf
 
 [Parameter8]
-Name=Address2
-Value=-
+Name=SheetSize
+Value=A3
 
 [Parameter9]
-Name=Address1
-Value=-
+Name=VersionRevision
+Value=A00
 
 [Configuration1]
 Name=Default Configuration
@@ -1148,7 +1157,7 @@ GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
 
 [PrjClassGen]
-CompClassManualEnabled=0
+CompClassManualEnabled=1
 CompClassManualRoomEnabled=0
 NetClassAutoBusEnabled=1
 NetClassAutoCompEnabled=0

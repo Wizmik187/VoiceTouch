@@ -1,0 +1,158 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\kimjw\OneDrive\Work\Keepin\VoiceTouch\2_Design_Files\VoiceTouch\A00\VoiceTouch_PCB_L6.PcbDoc
+Date     : 2021-08-20
+Time     : ¿ÀÀü 8:28:50
+
+Processing Rule : Clearance Constraint (Gap=0mm) (InNet('ANTENNA_STRIP')),(OnLayer('Keep-Out Layer'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (IsRegion and InLayerClass('Internal Layers')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (InComponentClass('Fiducial')),(InComponentClass('Fiducial'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) ((InPadClass('NPTH'))),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.12mm) (IsTrack),(IsTrack)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (IsRegion),(OnLayer('Keep-Out Layer'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (IsRegion and InNet('GND')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J2-5(24.748mm,16.55mm) on L4 And Pad J2-9(24.748mm,19.09mm) on L4 
+   Violation between Un-Routed Net Constraint: Net +VBUS_5V Between Pad J3-1(33.587mm,17.85mm) on L4 And Pad U7-5(33.913mm,16.55mm) on L1 
+   Violation between Un-Routed Net Constraint: Net USB_SHIELD Between Pad J3-11(36.263mm,15.35mm) on L4 And Pad J3-10(36.263mm,17.75mm) on L4 
+   Violation between Un-Routed Net Constraint: Net USB_SHIELD Between Pad J3-10(36.263mm,17.75mm) on L4 And Pad J3-8(36.263mm,19.85mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net USB_SHIELD Between Pad J3-9(36.263mm,13.25mm) on Multi-Layer And Pad J3-11(36.263mm,15.35mm) on L4 
+   Violation between Un-Routed Net Constraint: Net USB_CP_D_N Between Pad J3-2(33.587mm,17.2mm) on L4 And Pad U7-4(33.913mm,17.5mm) on L1 
+   Violation between Un-Routed Net Constraint: Net USB_CP_D_P Between Pad J3-3(33.587mm,16.55mm) on L4 And Pad U7-6(33.913mm,15.6mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J3-5(33.587mm,15.25mm) on L4 And Pad U7-2(36.213mm,16.55mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (25.45mm,15.275mm) from L1 to L4 And Pad J3-5(33.587mm,15.25mm) on L4 
+   Violation between Un-Routed Net Constraint: Net USB_SHIELD Between Pad J3-6(33.812mm,19.75mm) on L4 And Pad J3-8(36.263mm,19.85mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net USB_SHIELD Between Pad J3-7(33.812mm,13.35mm) on L4 And Pad J3-9(36.263mm,13.25mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J4-6(18.5mm,29.54mm) on L1 And Pad J4-16(20.5mm,29.54mm) on L1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J4-16(20.5mm,29.54mm) on L1 And Via (21.131mm,28.819mm) from L1 to L4 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad OSC1-1(18.72mm,13.85mm) on L1 [Unplated] And Pad OSC1-4(19.13mm,13.85mm) on L1 [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad OSC1-1(18.72mm,13.85mm) on L1 [Unplated] And Via (18.925mm,14.275mm) from L1 to L4 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U3-2(18.625mm,15.8mm) on L4 And Pad U3-5(19.16mm,15.475mm) on L4 
+   Violation between Un-Routed Net Constraint: Net USB_CP_D_P Between Pad U7-6(33.913mm,15.6mm) on L1 And Pad U7-1(36.213mm,15.6mm) on L1 
+   Violation between Un-Routed Net Constraint: Net USB_CP_D_N Between Pad U7-4(33.913mm,17.5mm) on L1 And Pad U7-3(36.213mm,17.5mm) on L1 
+Rule Violations :18
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=1mm) (Preferred=0.1mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.15mm) (Max=1mm) (Preferred=0.25mm) (InNet('+*') or InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=0.2mm) (MaxHoleWidth=0.25mm) (PreferredHoleWidth=0.2mm) (MinWidth=0.4mm) (MaxWidth=0.5mm) (PreferedWidth=0.45mm) (IsVia and InAnyComponent)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=0.1mm) (MaxHoleWidth=0.3mm) (PreferredHoleWidth=0.2mm) (MinWidth=0.2mm) (MaxWidth=0.55mm) (PreferedWidth=0.4mm) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.165mm) (Max=0.165mm) (Prefered=0.165mm)  and Width Constraints (Min=0.105mm) (Max=0.105mm) (Prefered=0.105mm) (All)
+Rule Violations :0
+
+Processing Rule : SMD Entry (Side = Allowed) (Corner = Allowed) (Any Angle = Allowed) (Ignore First Corner = Allowed)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.1mm) (Conductor Width=0.1mm) (Air Gap=0.1mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.05mm) (IsVia AND (HoleSize = 0.1))
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.1mm) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.1mm) (IsVia and InAnyComponent)
+Rule Violations :0
+
+Processing Rule : Acute Angle Constraint (Minimum=44.900) (All)
+   Violation between Acute Angle Constraint: (14.999 < 44.900) Between Via (22.575mm,6.75mm) from L1 to L4 And Via (22.975mm,6.75mm) from L1 to L4 (Angle = 14.999)
+   Violation between Acute Angle Constraint: (14.999 < 44.900) Between Via (22.575mm,6.75mm) from L1 to L4 And Via (22.975mm,6.75mm) from L1 to L4 (Angle = 14.999)
+Rule Violations :2
+
+Processing Rule : Hole Size Constraint (Min=0.1mm) (Max=6.5mm) (All)
+Rule Violations :0
+
+Processing Rule : Pads and Vias to follow the Drill pairs settings
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.2mm) (All),(All)
+   Violation between Hole To Hole Clearance Constraint: (0.175mm < 0.2mm) Between Via (18.075mm,23.95mm) from L1 to L4 And Via (18.075mm,24.325mm) from L1 to L4 
+   Violation between Hole To Hole Clearance Constraint: (0.175mm < 0.2mm) Between Via (19.375mm,21.475mm) from L1 to L4 And Via (19mm,21.475mm) from L1 to L4 
+Rule Violations :2
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.03mm) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.022mm < 0.03mm) Between Pad P3-1(9.065mm,21.75mm) on Multi-Layer And Pad P4-1(10.335mm,21.75mm) on Multi-Layer [Top Solder] Mask Sliver [0.022mm] / [Bottom Solder] Mask Sliver [0.022mm]
+Rule Violations :1
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (0.096mm < 0.1mm) Between Pad C22-1(30.475mm,22.575mm) on L1 And Track (30.92mm,19.668mm)(30.92mm,24.113mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.096mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.096mm < 0.1mm) Between Pad C22-2(30.475mm,23.525mm) on L1 And Track (30.92mm,19.668mm)(30.92mm,24.113mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.096mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.1mm) Between Pad MIC1-5(16.075mm,19.232mm) on L1 And Track (14.575mm,19.52mm)(17.575mm,19.52mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.1mm) Between Pad MIC1-6(17.287mm,17.52mm) on L1 And Track (17.575mm,15.52mm)(17.575mm,19.52mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.1mm) Between Pad MIC1-7(16.075mm,15.807mm) on L1 And Track (14.575mm,15.52mm)(17.575mm,15.52mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.075mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.075mm < 0.1mm) Between Pad MIC1-8(14.863mm,17.52mm) on L1 And Track (14.575mm,15.52mm)(14.575mm,19.52mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.075mm]
+Rule Violations :6
+
+Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+   Violation between Net Antennae: Via (31.75mm,19.825mm) from L1 to L4 
+   Violation between Net Antennae: Via (31.75mm,20.3mm) from L1 to L4 
+Rule Violations :2
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (InPadClass('Edge Pads'))
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (IsText)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (OnLayer('Top Overlay') or OnLayer('Bottom Overlay'))
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Length Constraint (Min=0mm) (Max=2540mm) (InNetClass('Xtal'))
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.1mm, Vertical Gap = 0.1mm ) (All),(All) 
+   Violation between Component Clearance Constraint: (Collision < 0.1mm) Between Small Component P3-1x1_Octagonal_1.27 (9.065mm,21.75mm) on L1 And Small Component P4-1x1_Octagonal_1.27 (10.335mm,21.75mm) on L1 
+Rule Violations :1
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponentClass('TESTPOINTS')),(All) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('R3')),(InComponent('R8')) 
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 32
+Waived Violations : 0
+Time Elapsed        : 00:00:03
